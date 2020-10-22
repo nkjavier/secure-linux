@@ -4,6 +4,13 @@
 #-ufw
 #-fail2ban
 
+#-- Instalaciones previas en Debian
+sudo apt install ufw
+sudo apt install fail2ban
+
+#-- instalacion previa en Fedora
+sudo dnf install ufw fail2ban
+
 # --- Setup UFW rules
 sudo ufw disable
 sudo ufw reset
