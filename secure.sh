@@ -5,6 +5,8 @@
 #-fail2ban
 
 # --- Setup UFW rules
+sudo ufw disable
+sudo ufw reset
 sudo ufw limit 22/tcp  
 sudo ufw allow 80/tcp  
 sudo ufw allow 443/tcp  
